@@ -16,8 +16,7 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
 	@Override
 	public void onCreate(SQLiteDatabase db) {
 		// TODO Auto-generated method stub
-		db.execSQL("create table questiontable(_id integer primary key autoincrement,title" +
-				"text,A text,B text,C text,D text,choose_num integer,key integer);");
+		db.execSQL("CREATE TABLE Answertable( _id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, A TEXT, B TEXT, C TEXT, D TEXT, choose_num INTEGER, key INTEGER)");
 	}
 
 	@Override

@@ -31,6 +31,21 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
         > 
+        <RadioGroup 
+             android:id="@+id/radiogruop"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+            ></RadioGroup>
     </LinearLayout>
+
+      <Button
+          android:id="@+id/button1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="39dp"
+          android:text="确定" />
 
 </RelativeLayout>

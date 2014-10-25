@@ -21,44 +21,49 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int flower=0x7f020000;
+        public static final int flower2=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
-        public static final int EditText01=0x7f080010;
-        public static final int EditText02=0x7f080017;
-        public static final int EditText03=0x7f080016;
+        public static final int EditText01=0x7f080011;
+        public static final int EditText02=0x7f080018;
+        public static final int EditText03=0x7f080017;
         public static final int ListView01=0x7f080002;
-        public static final int TextView01=0x7f080011;
-        public static final int TextView02=0x7f080015;
-        public static final int TextView03=0x7f080014;
-        public static final int action_settings=0x7f080022;
-        public static final int add=0x7f080009;
+        public static final int TextView01=0x7f080012;
+        public static final int TextView02=0x7f080016;
+        public static final int TextView03=0x7f080015;
+        public static final int action_settings=0x7f080025;
+        public static final int add=0x7f08000a;
         public static final int btn1=0x7f080000;
         public static final int btn2=0x7f080001;
         public static final int button1=0x7f080003;
         public static final int button2=0x7f080004;
-        public static final int editText1=0x7f08000e;
-        public static final int editText2=0x7f080012;
-        public static final int edt_choose=0x7f080008;
-        public static final int edt_yesorno=0x7f08001e;
-        public static final int finish=0x7f08000c;
+        public static final int editText1=0x7f08000f;
+        public static final int editText2=0x7f080013;
+        public static final int edt_choose=0x7f080009;
+        public static final int edt_yesorno=0x7f080021;
+        public static final int finish=0x7f08000d;
+        public static final int imageButton1=0x7f08001f;
+        public static final int imageView1=0x7f080020;
         public static final int layout2=0x7f080007;
-        public static final int no_yesorno=0x7f080021;
+        public static final int no_yesorno=0x7f080024;
         public static final int q_num=0x7f080005;
         public static final int q_title=0x7f080006;
-        public static final int radioButton1=0x7f08001b;
-        public static final int radioButton2=0x7f08001d;
-        public static final int radioButton3=0x7f08001c;
-        public static final int radioButton4=0x7f08001a;
-        public static final int radioGroup1=0x7f080019;
-        public static final int result=0x7f08000b;
-        public static final int root=0x7f08000a;
-        public static final int textView1=0x7f08000d;
-        public static final int textView2=0x7f080013;
-        public static final int textView3=0x7f08000f;
-        public static final int textView4=0x7f080018;
-        public static final int yes_yesorno=0x7f080020;
-        public static final int yesorno_yesorno=0x7f08001f;
+        public static final int radioButton1=0x7f08001c;
+        public static final int radioButton2=0x7f08001e;
+        public static final int radioButton3=0x7f08001d;
+        public static final int radioButton4=0x7f08001b;
+        public static final int radioGroup1=0x7f08001a;
+        public static final int radiogruop=0x7f080008;
+        public static final int result=0x7f08000c;
+        public static final int root=0x7f08000b;
+        public static final int textView1=0x7f08000e;
+        public static final int textView2=0x7f080014;
+        public static final int textView3=0x7f080010;
+        public static final int textView4=0x7f080019;
+        public static final int yes_yesorno=0x7f080023;
+        public static final int yesorno_yesorno=0x7f080022;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -67,7 +72,10 @@ public final class R {
         public static final int choose=0x7f030003;
         public static final int choose1=0x7f030004;
         public static final int choosequestion=0x7f030005;
-        public static final int yesorno=0x7f030006;
+        public static final int content=0x7f030006;
+        public static final int first=0x7f030007;
+        public static final int item=0x7f030008;
+        public static final int yesorno=0x7f030009;
     }
     public static final class menu {
         public static final int main=0x7f070000;

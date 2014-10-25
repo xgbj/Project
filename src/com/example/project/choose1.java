@@ -16,7 +16,7 @@ public class choose1 extends Activity {
 	     private  EditText edt1,edt2,question,A,B,C,D;
 	     private  Button finish;
 	     private  RadioButton a,b,c,d;
-	     MySQLiteHelper mySQLiteHelper = new MySQLiteHelper(choose1.this,"question.db", 
+	     MySQLiteHelper mySQLiteHelper = new MySQLiteHelper(choose1.this,"Answer.db", 
 	        		null, 1);
 	 protected void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
@@ -62,11 +62,12 @@ public class choose1 extends Activity {
 				    cv.put("D", _D);
 				    cv.put("choose_num",4);
 				    cv.put("key", key);  
-				    db.insert("questiontable", null, cv);
+				    db.insert("Answertable", null, cv);
 				    Toast.makeText(choose1.this,"添加到数据库成功",Toast.LENGTH_LONG).show();
 				    Intent intent = new Intent();
 				    intent.setClass(choose1.this, MainActivity.class);
 				    startActivity(intent);
+				    db.close();
 				}
 			});
 	        //对取得的数据进行保存

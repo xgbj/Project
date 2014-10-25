@@ -26,6 +26,8 @@
             android:name=".choose"></activity>
         <activity 
             android:name=".choose1"></activity>
+         <activity 
+            android:name=".answer"></activity>
     </application>
 
 </manifest>
